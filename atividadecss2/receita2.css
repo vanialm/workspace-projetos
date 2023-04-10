@@ -1,0 +1,37 @@
+/*
+Crie uma receita (obrigatório) utilizando os comandos de manipulação de fonte
+1. O texto deve ser alinhado ao centro
+2. Utilize o h1 para dizer o nome da receita e nele insira uma fonte(familia) diferente dos demais elementos
+3. Um dos ingredientes deve ter uma linha riscada
+4. O tempo de preparo deve ser em itálico 
+5. Para fins de estética visual pode se utilizar elementos background
+
+Extra para estudo adicional:
+6. Deve se colocar  na fonte cores de acordo com a prioridade dos ingredientes (Verde - obrigatorios / azul - a gosto)
+*/
+
+body {
+    font-family: 'Courier New';
+    font-size: 16px;
+    text-align: center; 
+    background-color: honeydew;
+  }
+
+h1 {
+    font-family: 'Franklin Gothic Medium';
+    color: #333333;
+    font-size: 30px;
+}
+.obrigatorio{
+    color:darkgreen;
+}
+.a_gosto{
+    color: blue;
+}
+
+p{
+    text-align: center;
+    text-align: justify;
+    margin-left: 300px;
+    margin-right: 300px;
+  }

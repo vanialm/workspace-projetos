@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../site/cadastro.css">
+
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <form>
+    <h2>Cadastro de Pokémons</h2>
+	<form>
+		<label for="nomepokemon">Nome do Pokémon:</label>
+		<input type="text" id="nomepokemon" name="nomepokemon"><br><br>
+
+		<label for="datacaptura">Data de Captura:</label>
+		<input type="date" id="datacaptura" name="datacaptura"><br><br>
+
+		<label for="pokebolasusadas">Pokebolas usadas:</label>
+		<input type="number" id="pokebolasusadas" name="pokebolasusadas"><br>
+		
+		<label for="tipo">Tipo:</label>
+		<select id="tipo" name="tipo">
+			<option value="normal">Normal</option>
+			<option value="fogo">Fogo</option>
+			<option value="agua">Água</option>
+			<option value="ar">Ar</option>
+			<option value="planta">Planta</option>
+			<option value="eletrico">Elétrico</option>
+			<option value="gelo">Gelo</option>
+		</select><br>
+
+		<label for="informacao">Informação adicional:</label>
+		<textarea id="informacao" name="informacao"></textarea><br>
+
+		<input type="submit" value="Cadastrar">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+/*--Escreva um h1 e dois paragrafos 
+Adicione uma classe para h1 <tudoazul>
+e adicionar classe para um p<tudored>
+
+Parte 2 do projeto
+
+Um arquivo de CSS externo:
+
+P > color =#123321
+background- color: black
+
+Tudoazul > Color:blue
+background-color: cyan
+
+Tudored > color:red
+background-color:brow;*/
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+
+p{
+    color: #123321; 
+    background-color: black;
+}
+.tudoazul {
+    color: blue;
+    background-color: cyan;
+}
+.tudored {
+    color: red;
+    background-color: brown;
+}

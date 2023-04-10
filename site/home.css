@@ -1,0 +1,60 @@
+body {
+	font-family: Arial, sans-serif;                                         
+    color: #4CAF50;
+    background-color: #4f0954;
+    /*background-image: url("");*/
+    /*background-repeat: no-repeat;*/
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 2em;
+}
+
+form {
+	margin-bottom: 2em;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+input[type="text"], input[type="password"], input[type="number"], select, textarea {
+	padding: 0.5em;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	font-size: 1em;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 0.5em;
+	border: none;
+	border-radius: 4px;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
+#nome, #idmestre, #senha {
+	width: 30%;
+}
+
+#regiao {
+	width: 11%;
+}
+

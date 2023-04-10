@@ -1,0 +1,67 @@
+/* Define a fonte e o tamanho do texto */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  /* Estiliza a lista de filmes */
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define a cor e o tamanho do título */
+  h1 {
+    color: #333333;
+    font-size: 30px;
+    /*text-align: center; align-items: center;*/
+  }
+  
+  h2 {
+    color: #333333;
+    font-size: 24px;
+  }
+
+  /* Estiliza cada item da lista */
+  li {
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  /* Define a cor do título do filme */
+  li h2 {
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  /* Define a cor do ano do filme */
+  li span {
+    color: #999999;
+  }
+  
+  /* Define a cor e o tamanho do link do trailer */
+  li a {
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Estiliza o botão "Enviar" do formulário */
+  input[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Estiliza o campo do formulário quando está ativo */
+  input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ormulário Salesforce</title>
+</head>
+<body>
+    
+  <body>
+    <h1>Formulário de Oportunidade</h1>
+    <form>
+      <label>
+        <input type="checkbox" name="particular" value="true">
+        Particular
+      </label><br><br>
+      
+      <label>
+        Nome da Oportunidade:<br>
+        <input type="text" name="nome" required>
+      </label><br><br>
+      
+      <label>
+        Valor:<br>
+        <input type="number" name="valor" required>
+      </label><br><br>
+      
+      <label>
+        Fase:<br>
+        <select name="fase" required>
+          <option value="">Selecione uma opção</option>
+          <option value="Qualificação">Qualificação</option>
+          <option value="Proposta">Proposta</option>
+          <option value="Fechamento">Fechamento</option>
+          <option value="Ganho">Ganho</option>
+          <option value="Perdido">Perdido</option>
+        </select>
+      </label><br><br>
+      
+      <label>
+        Tipo:<br>
+        <select name="tipo" required>
+          <option value="">Selecione uma opção</option>
+          <option value="Novo Cliente">Novo Cliente</option>
+          <option value="Cross-sell">Cross-sell</option>
+          <option value="Renovação">Renovação</option>
+          <option value="Up-sell">Up-sell</option>
+          <option value="Outro">Outro</option>
+        </select>
+      </label><br><br>
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>

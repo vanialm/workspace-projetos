@@ -10,18 +10,31 @@ Extra para estudo adicional:
 6. Deve se colocar  na fonte cores de acordo com a prioridade dos ingredientes (Verde - obrigatorios / azul - a gosto)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 body {
-    font-family: 'Courier New';
+    font-family: 'Oswald', sans-serif;
     font-size: 16px;
     text-align: center; 
-    background-color: honeydew;
+    background-color: rgb(238, 238, 238);
+    width: 600px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    border: 5px solid rgb(142, 180, 4);
   }
-
+  
 h1 {
     font-family: 'Franklin Gothic Medium';
-    color: #333333;
+    color: #4e5700;
     font-size: 30px;
+    margin: 0;
+    padding: 20px 0;
 }
+
+h6 {
+    margin: 0;
+}
+ 
 .obrigatorio{
     color:darkgreen;
 }
@@ -31,7 +44,9 @@ h1 {
 
 p{
     text-align: center;
-    text-align: justify;
-    margin-left: 300px;
-    margin-right: 300px;
   }
+
+img {
+  display: block;
+  margin: 0 auto;
+}
